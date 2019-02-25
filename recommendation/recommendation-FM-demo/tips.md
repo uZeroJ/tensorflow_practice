@@ -1,0 +1,5 @@
+- vectorize_dic 是用来把用户、物品打分对转换成对应的矩阵
+  - 采用`csr_matrix((data, (row_ind, col_ind)), [shape=(M, N)])`方法
+  - TODO:可以重写一个简洁的
+- 或者使用indice
+  - `csr_matrix((data, indices, indptr), [shape=(M, N)])`
