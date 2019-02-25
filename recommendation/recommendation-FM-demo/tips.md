@@ -3,4 +3,7 @@
   - TODO:可以重写一个简洁的
 - 或者使用indice
   - `csr_matrix((data, indices, indptr), [shape=(M, N)])`
-- 其中idx
+- 变量含义
+  - 其中ix是不同的用户和物品的计数？
+  - 矩阵维度是（所有数据 x 所有不重复数据）
+  - col_ix是count值？
