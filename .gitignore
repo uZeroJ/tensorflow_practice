@@ -49,9 +49,12 @@ test_data/
 result/
 export_ptr_model/
 data/
+Data/
+Log/
+log/
 __pycache__/
 
-
+log/
 model/
 
 */data/
