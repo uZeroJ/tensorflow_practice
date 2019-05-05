@@ -9,13 +9,11 @@ from collections import namedtuple
 import tensorflow as tf
 
 
-
-
 def read_paper_dataset(path):
-    enc_seq , target_seq , enc_seq_length , target_seq_length = [],[],[],[]
+    enc_seq, target_seq, enc_seq_length, target_seq_length = [], [], [], []
     tf.logging.info("Read dataset {} which is used in the paper..".format(path))
     length = max(re.findall('\d+', path))
-    with open(path,'r') as f:
+    with open(path, 'r') as f:
         for l in tqdm(f):
             # 使用output分割数据
             inputs, outputs = l.split(' output ')
@@ -27,11 +25,11 @@ def read_paper_dataset(path):
             target_seq.append(outputs)  # skip the last one
             enc_seq_length.append(inputs.shape[0])
             target_seq_length.append(outputs.shape[0])
-    return enc_seq,target_seq,enc_seq_length,target_seq_length
+    return enc_seq, target_seq, enc_seq_length, target_seq_length
 
 
 def gen_data(path):
-    x,y,enc_seq_length,target_seq_length = read_paper_dataset(path)
+    x, y, enc_seq_length, target_seq_length = read_paper_dataset(path)
     # max_length 是 config的序列的最大长度
     enc_seq = np.zeros([len(x), 10, 2], dtype=np.float32)
     target_seq = np.zeros([len(y), 10], dtype=np.int32)
@@ -40,4 +38,4 @@ def gen_data(path):
     for idx, (nodes, res) in enumerate(tqdm(zip(x, y))):
         enc_seq[idx, :len(nodes)] = nodes
         target_seq[idx, :len(res)] = res
-    return enc_seq,target_seq,enc_seq_length,target_seq_length
+    return enc_seq, target_seq, enc_seq_length, target_seq_length

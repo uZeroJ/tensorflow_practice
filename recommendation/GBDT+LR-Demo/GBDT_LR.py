@@ -68,7 +68,6 @@ for i in range(0, len(y_pred)):
     temp = np.arange(len(y_pred[0])) * num_leaf + np.array(y_pred[i])
     transformed_training_matrix[i][temp] += 1
 
-
 y_pred = gbm.predict(X_test, pred_leaf=True)
 print('Writing transformed testing data')
 transformed_testing_matrix = np.zeros([len(y_pred), len(y_pred[0]) * num_leaf], dtype=np.int64)
@@ -76,12 +75,12 @@ for i in range(0, len(y_pred)):
     temp = np.arange(len(y_pred[0])) * num_leaf + np.array(y_pred[i])
     transformed_testing_matrix[i][temp] += 1
 
-
-lm = LogisticRegression(penalty='l2',C=0.05) # logestic model construction
-lm.fit(transformed_training_matrix,y_train)  # fitting the data
-y_pred_test = lm.predict_proba(transformed_testing_matrix)   # Give the probabilty on each label
+lm = LogisticRegression(penalty='l2', C=0.05)  # logestic model construction
+lm.fit(transformed_training_matrix, y_train)  # fitting the data
+y_pred_test = lm.predict_proba(transformed_testing_matrix)  # Give the probabilty on each label
 
 print(y_pred_test)
 
-NE = (-1) / len(y_pred_test) * sum(((1+y_test)/2 * np.log(y_pred_test[:,1]) +  (1-y_test)/2 * np.log(1 - y_pred_test[:,1])))
+NE = (-1) / len(y_pred_test) * sum(((1 + y_test) / 2 * np.log(y_pred_test[:, 1]) + (
+            1 - y_test) / 2 * np.log(1 - y_pred_test[:, 1])))
 print("Normalized Cross Entropy " + str(NE))

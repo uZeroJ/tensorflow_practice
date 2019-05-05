@@ -2,13 +2,117 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="69f12537-6c3d-43b1-a62a-ad07d70a14cd" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/RL/Basic-A3C-Demo/log/events.out.tfevents.1543473204.meituan-sxwdeMacBook-Pro-4.local" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/tensorflow1.2.iml" afterPath="$PROJECT_DIR$/.idea/tensorflow1.2.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/RL/Basic-A2C-Demo/A2C.py" afterPath="$PROJECT_DIR$/RL/Basic-A2C-Demo/A2C.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/RL/Basic-A3C-Demo/A3C.py" afterPath="$PROJECT_DIR$/RL/Basic-A3C-Demo/A3C.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/RL/Basic-AC-Demo/AC.py" afterPath="$PROJECT_DIR$/RL/Basic-AC-Demo/AC.py" />
+      <change afterPath="$PROJECT_DIR$/recommendation/basic_IRGAN_demo/ml-100k/dis_log.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recommendation/basic_mlr_demo/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recommendation/basic_mlr_demo/data.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recommendation/basic_mlr_demo/lr.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recommendation/basic_mlr_demo/mlr.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recommendation/basic_mlr_demo/plotResult.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/tensorflow1.2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/tensorflow1.2.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RL/Basic-A2C-Demo/A2C.py" beforeDir="false" afterPath="$PROJECT_DIR$/RL/Basic-A2C-Demo/A2C.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RL/myPtrNetwork/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/RL/myPtrNetwork/config.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RL/myPtrNetwork/data_util.py" beforeDir="false" afterPath="$PROJECT_DIR$/RL/myPtrNetwork/data_util.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RL/myPtrNetwork/model.py" beforeDir="false" afterPath="$PROJECT_DIR$/RL/myPtrNetwork/model.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recommendation/Basic-AFM-Demo/AFM.py" beforeDir="false" afterPath="$PROJECT_DIR$/recommendation/basic_AFM_demo/afm.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recommendation/Basic-AFM-Demo/DataReader.py" beforeDir="false" afterPath="$PROJECT_DIR$/recommendation/basic_AFM_demo/data_reader.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recommendation/Basic-AFM-Demo/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/recommendation/basic_AFM_demo/config.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recommendation/Basic-AFM-Demo/data/test.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recommendation/Basic-AFM-Demo/data/train.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recommendation/Basic-AFM-Demo/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/recommendation/basic_AFM_demo/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recommendation/Basic-BPR-Demo/BPR.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recommendation/Basic-Bandit-Demo/Basic-LinUCB.py" beforeDir="false" afterPath="$PROJECT_DIR$/recommendation/Basic-Bandit-Demo/Basic-LinUCB.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recommendation/Basic-DCN-Demo/DCN.py" beforeDir="false" afterPath="$PROJECT_DIR$/recommendation/Basic-DCN-Demo/DCN.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recommendation/Basic-DIEN-Demo/GruCell.py" beforeDir="false" afterPath="$PROJECT_DIR$/recommendation/basic_DIEN_demo/GruCell.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recommendation/Basic-DIEN-Demo/data_iterator.py" beforeDir="false" afterPath="$PROJECT_DIR$/recommendation/basic_DIEN_demo/data_iterator.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recommendation/Basic-DIEN-Demo/model.py" beforeDir="false" afterPath="$PROJECT_DIR$/recommendation/basic_DIEN_demo/model.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recommendation/Basic-DIEN-Demo/rnn.py" beforeDir="false" afterPath="$PROJECT_DIR$/recommendation/basic_DIEN_demo/rnn.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recommendation/Basic-DIEN-Demo/source_code/Dice.py" beforeDir="false" afterPath="$PROJECT_DIR$/recommendation/basic_DIEN_demo/source_code/Dice.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recommendation/Basic-DIEN-Demo/source_code/data_iterator.py" beforeDir="false" afterPath="$PROJECT_DIR$/recommendation/basic_DIEN_demo/source_code/data_iterator.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recommendation/Basic-DIEN-Demo/source_code/generate_voc.py" beforeDir="false" afterPath="$PROJECT_DIR$/recommendation/basic_DIEN_demo/source_code/generate_voc.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recommendation/Basic-DIEN-Demo/source_code/local_aggretor.py" beforeDir="false" afterPath="$PROJECT_DIR$/recommendation/basic_DIEN_demo/source_code/local_aggretor.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recommendation/Basic-DIEN-Demo/source_code/model.py" beforeDir="false" afterPath="$PROJECT_DIR$/recommendation/basic_DIEN_demo/source_code/model.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recommendation/Basic-DIEN-Demo/source_code/process_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/recommendation/basic_DIEN_demo/source_code/process_data.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recommendation/Basic-DIEN-Demo/source_code/rnn.py" beforeDir="false" afterPath="$PROJECT_DIR$/recommendation/basic_DIEN_demo/source_code/rnn.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recommendation/Basic-DIEN-Demo/source_code/shuffle.py" beforeDir="false" afterPath="$PROJECT_DIR$/recommendation/basic_DIEN_demo/source_code/shuffle.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recommendation/Basic-DIEN-Demo/source_code/split_by_user.py" beforeDir="false" afterPath="$PROJECT_DIR$/recommendation/basic_DIEN_demo/source_code/split_by_user.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recommendation/Basic-DIEN-Demo/source_code/train.py" beforeDir="false" afterPath="$PROJECT_DIR$/recommendation/basic_DIEN_demo/source_code/train.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recommendation/Basic-DIEN-Demo/source_code/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/recommendation/basic_DIEN_demo/source_code/utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recommendation/Basic-DIEN-Demo/train.py" beforeDir="false" afterPath="$PROJECT_DIR$/recommendation/basic_DIEN_demo/train.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recommendation/Basic-DIEN-Demo/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/recommendation/basic_DIEN_demo/utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recommendation/Basic-DIEN-Demo/vecAttGruCell.py" beforeDir="false" afterPath="$PROJECT_DIR$/recommendation/basic_DIEN_demo/vecAttGruCell.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recommendation/Basic-DIN-Demo/Dice.py" beforeDir="false" afterPath="$PROJECT_DIR$/recommendation/basic_DIN_demo/Dice.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recommendation/Basic-DIN-Demo/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/recommendation/basic_DIN_demo/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recommendation/Basic-DIN-Demo/build_dataset.py" beforeDir="false" afterPath="$PROJECT_DIR$/recommendation/basic_DIN_demo/build_dataset.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recommendation/Basic-DIN-Demo/convert_pd.py" beforeDir="false" afterPath="$PROJECT_DIR$/recommendation/basic_DIN_demo/convert_pd.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recommendation/Basic-DIN-Demo/input.py" beforeDir="false" afterPath="$PROJECT_DIR$/recommendation/basic_DIN_demo/input.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recommendation/Basic-DIN-Demo/model.py" beforeDir="false" afterPath="$PROJECT_DIR$/recommendation/basic_DIN_demo/model.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recommendation/Basic-DIN-Demo/remap_id.py" beforeDir="false" afterPath="$PROJECT_DIR$/recommendation/basic_DIN_demo/remap_id.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recommendation/Basic-DIN-Demo/train.py" beforeDir="false" afterPath="$PROJECT_DIR$/recommendation/basic_DIN_demo/train.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recommendation/Basic-DIN-Demo/utils/0_download_raw.sh" beforeDir="false" afterPath="$PROJECT_DIR$/recommendation/basic_DIN_demo/utils/0_download_raw.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recommendation/Basic-DIN-Demo/utils/1_convert_pd.py" beforeDir="false" afterPath="$PROJECT_DIR$/recommendation/basic_DIN_demo/utils/1_convert_pd.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recommendation/Basic-DIN-Demo/utils/2_remap_id.py" beforeDir="false" afterPath="$PROJECT_DIR$/recommendation/basic_DIN_demo/utils/2_remap_id.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recommendation/Basic-DIN-Demo/utils/auc.png" beforeDir="false" afterPath="$PROJECT_DIR$/recommendation/basic_DIN_demo/utils/auc.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recommendation/Basic-DKN-Demo/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recommendation/Basic-DKN-Demo/data_loader.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recommendation/Basic-DKN-Demo/dkn.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recommendation/Basic-DKN-Demo/kg/Fast-TransX/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recommendation/Basic-DKN-Demo/kg/Fast-TransX/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recommendation/Basic-DKN-Demo/kg/Fast-TransX/transD/transD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recommendation/Basic-DKN-Demo/kg/Fast-TransX/transD/transD.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recommendation/Basic-DKN-Demo/kg/Fast-TransX/transE/transE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recommendation/Basic-DKN-Demo/kg/Fast-TransX/transE/transE.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recommendation/Basic-DKN-Demo/kg/Fast-TransX/transH/transH.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recommendation/Basic-DKN-Demo/kg/Fast-TransX/transR/transR.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recommendation/Basic-DKN-Demo/kg/entity2id.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recommendation/Basic-DKN-Demo/kg/kg.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recommendation/Basic-DKN-Demo/kg/kg_preprocess.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recommendation/Basic-DKN-Demo/kg/prepare_data_for_transx.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recommendation/Basic-DKN-Demo/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recommendation/Basic-DKN-Demo/news/news_preprocess.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recommendation/Basic-DKN-Demo/news/raw_test.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recommendation/Basic-DKN-Demo/news/raw_train.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recommendation/Basic-DKN-Demo/train.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recommendation/Basic-DeepFM-model/fig/DNN.png" beforeDir="false" afterPath="$PROJECT_DIR$/recommendation/Basic-DeepFM-model/fig/DNN.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recommendation/Basic-DeepFM-model/fig/DeepFM.png" beforeDir="false" afterPath="$PROJECT_DIR$/recommendation/Basic-DeepFM-model/fig/DeepFM.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recommendation/Basic-DeepFM-model/fig/FM.png" beforeDir="false" afterPath="$PROJECT_DIR$/recommendation/Basic-DeepFM-model/fig/FM.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recommendation/Basic-DeepFM-model/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/recommendation/Basic-DeepFM-model/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recommendation/Basic-IRGAN-Demo/cf_gan.py" beforeDir="false" afterPath="$PROJECT_DIR$/recommendation/basic_IRGAN_demo/cf_gan.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recommendation/Basic-IRGAN-Demo/dis_model.py" beforeDir="false" afterPath="$PROJECT_DIR$/recommendation/basic_IRGAN_demo/dis_model.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recommendation/Basic-IRGAN-Demo/gen_model.py" beforeDir="false" afterPath="$PROJECT_DIR$/recommendation/basic_IRGAN_demo/gen_model.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recommendation/Basic-IRGAN-Demo/ml-100k/dis-train.txt" beforeDir="false" afterPath="$PROJECT_DIR$/recommendation/basic_IRGAN_demo/ml-100k/dis-train.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recommendation/Basic-IRGAN-Demo/ml-100k/dis_log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/recommendation/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recommendation/Basic-IRGAN-Demo/ml-100k/gen_log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/recommendation/basic_IRGAN_demo/ml-100k/gen_log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recommendation/Basic-IRGAN-Demo/ml-100k/movielens-100k-test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/recommendation/basic_IRGAN_demo/ml-100k/movielens-100k-test.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recommendation/Basic-IRGAN-Demo/ml-100k/movielens-100k-train.txt" beforeDir="false" afterPath="$PROJECT_DIR$/recommendation/basic_IRGAN_demo/ml-100k/movielens-100k-train.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recommendation/Basic-IRGAN-Demo/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/recommendation/basic_IRGAN_demo/utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recommendation/Basic-MKR-Demo/data_loader.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recommendation/Basic-MKR-Demo/layers.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recommendation/Basic-MKR-Demo/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recommendation/Basic-MKR-Demo/model.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recommendation/Basic-MKR-Demo/preprocess.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recommendation/Basic-MKR-Demo/train.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recommendation/Basic-MLR-Demo/data.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recommendation/Basic-MLR-Demo/lr.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recommendation/Basic-MLR-Demo/mlr.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recommendation/Basic-MLR-Demo/plotResult.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recommendation/Basic-NCF-Demo/NCF_input.py" beforeDir="false" afterPath="$PROJECT_DIR$/recommendation/Basic-NCF-Demo/NCF_input.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recommendation/Basic-NFM-Demo/DataReader.py" beforeDir="false" afterPath="$PROJECT_DIR$/recommendation/basic_nfm_demo/data_reader.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recommendation/Basic-NFM-Demo/NFM.py" beforeDir="false" afterPath="$PROJECT_DIR$/recommendation/basic_nfm_demo/nfm.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recommendation/Basic-NFM-Demo/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/recommendation/basic_nfm_demo/config.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recommendation/Basic-NFM-Demo/data/test.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recommendation/Basic-NFM-Demo/data/train.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recommendation/Basic-NFM-Demo/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/recommendation/basic_nfm_demo/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recommendation/Basic-RippleNet-Demo/data_loader.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recommendation/Basic-RippleNet-Demo/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recommendation/Basic-RippleNet-Demo/model.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recommendation/Basic-RippleNet-Demo/preprocess.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recommendation/Basic-RippleNet-Demo/train.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recommendation/GBDT+LR-Demo/GBDT_LR.py" beforeDir="false" afterPath="$PROJECT_DIR$/recommendation/GBDT+LR-Demo/GBDT_LR.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recommendation/Newton Interpolation.py" beforeDir="false" afterPath="$PROJECT_DIR$/recommendation/newton_interpolation.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recommendation/recommendation-FFM-Demo/FFM_model.py" beforeDir="false" afterPath="$PROJECT_DIR$/recommendation/recommendation-FFM-Demo/FFM_model.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recommendation/recommendation-FM-demo/FM_model.py" beforeDir="false" afterPath="$PROJECT_DIR$/recommendation/recommendation-FM-demo/FM_model.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -55,11 +159,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="A2C.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/RL/Basic-A2C-Demo/A2C.py">
+      <file leaf-file-name="input.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/recommendation/basic_DIN_demo/input.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="404">
-              <caret line="155" column="0" lean-forward="false" selection-start-line="155" selection-start-column="0" selection-end-line="155" selection-end-column="78" />
+            <state relative-caret-position="57">
+              <caret line="3" column="38" selection-start-line="3" selection-start-column="38" selection-end-line="3" selection-end-column="38" />
+              <folding>
+                <element signature="e#633#716#0" />
+                <element signature="e#824#894#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="tf_data_demo.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/recommendation/Basic-NCF-Demo/tf_data_demo.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
@@ -67,11 +183,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AC.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/RL/Basic-AC-Demo/AC.py">
+      <file leaf-file-name="main.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/recommendation/Basic-NCF-Demo/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1936">
-              <caret line="8" column="46" lean-forward="false" selection-start-line="8" selection-start-column="46" selection-end-line="8" selection-end-column="46" />
+            <state>
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
@@ -79,56 +194,70 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="A3C.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/RL/Basic-A3C-Demo/A3C.py">
+      <file leaf-file-name="model.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/recommendation/basic_DIN_demo/model.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="265">
-              <caret line="179" column="23" lean-forward="false" selection-start-line="179" selection-start-column="23" selection-end-line="179" selection-end-column="23" />
+            <state relative-caret-position="2394">
+              <caret line="126" column="60" selection-start-line="126" selection-start-column="60" selection-end-line="126" selection-end-column="60" />
               <folding>
-                <element signature="e#0#22#0" expanded="true" />
+                <element signature="e#0#23#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="compareAC.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/RL/compareAC.py">
+      <file leaf-file-name="vecAttGruCell.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/recommendation/basic_DIEN_demo/vecAttGruCell.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+            <state>
               <folding>
-                <element signature="e#0#19#0" expanded="true" />
+                <element signature="e#0#23#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RL_brain.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/RL/Basic-Policy-Network/RL_brain.py">
+      <file leaf-file-name="NCF_input.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/recommendation/Basic-NCF-Demo/NCF_input.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
+            <state>
+              <folding>
+                <element signature="e#0#18#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="run_CartPole.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/RL/Basic-Policy-Network/run_CartPole.py">
+      <file leaf-file-name="cf_gan.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/recommendation/basic_IRGAN_demo/cf_gan.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="16" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="798">
+              <caret line="42" column="19" selection-start-line="42" selection-start-column="19" selection-end-line="42" selection-end-column="19" />
+              <folding>
+                <element signature="e#0#13#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="session.py" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/Anaconda/anaconda/lib/python3.6/site-packages/tensorflow/python/client/session.py">
+      <file leaf-file-name="train.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/recommendation/basic_DIN_demo/train.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="181">
-              <caret line="1095" column="0" lean-forward="false" selection-start-line="1095" selection-start-column="0" selection-end-line="1095" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="741">
+              <caret line="98" column="22" selection-start-line="98" selection-start-column="22" selection-end-line="98" selection-end-column="22" />
+              <folding>
+                <element signature="e#377#520#0" />
+                <element signature="e#712#1167#0" />
+                <element signature="e#844#955#0" />
+                <element signature="e#1195#1417#0" />
+                <element signature="e#1448#1881#0" />
+                <element signature="e#1549#1661#0" />
+                <element signature="e#1792#1855#0" />
+                <element signature="e#2337#3261#0" />
+                <element signature="e#2468#3052#0" />
+                <element signature="e#2582#2963#0" />
+                <element signature="e#2773#2887#0" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -156,7 +285,12 @@
       <find>print</find>
       <find>new_words</find>
       <find>one_hot</find>
+      <find>pointer</find>
+      <find>jjj</find>
     </findStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$/recommendation</dir>
+    </dirStrings>
   </component>
   <component name="Git.Settings">
     <option name="PUSH_AUTO_UPDATE" value="true" />
@@ -165,57 +299,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/basic/maxout.py" />
-        <option value="$PROJECT_DIR$/recommendation/Basic-IRGAN-Demo/utils.py" />
-        <option value="$PROJECT_DIR$/recommendation/Basic-IRGAN-Demo/gen_model.py" />
-        <option value="$PROJECT_DIR$/recommendation/Basic-IRGAN-Demo/dis_model.py" />
-        <option value="$PROJECT_DIR$/recommendation/Basic-IRGAN-Demo/cf_gan.py" />
-        <option value="$PROJECT_DIR$/recommendation/recommendation-FM-demo/FM_model.py" />
-        <option value="$PROJECT_DIR$/CV/CNN.py" />
-        <option value="$PROJECT_DIR$/CV/ResNet/resnet_mnist.py" />
-        <option value="$PROJECT_DIR$/recommendation/Basic-DIEN-Demo.py" />
-        <option value="$PROJECT_DIR$/recommendation/Basic-DIEN-Demo/shuffle.py" />
-        <option value="$PROJECT_DIR$/recommendation/Basic-DIN-Demo/model.py" />
-        <option value="$PROJECT_DIR$/recommendation/Basic-DIEN-Demo/VecAttGruCell.py" />
-        <option value="$PROJECT_DIR$/recommendation/Basic-DIEN-Demo/rnn.py" />
-        <option value="$PROJECT_DIR$/recommendation/Basic-DIEN-Demo/vecAttGruCell.py" />
-        <option value="$PROJECT_DIR$/recommendation/Basic-DIEN-Demo/data_iterator.py" />
-        <option value="$PROJECT_DIR$/recommendation/Basic-DIEN-Demo/Dice.py" />
-        <option value="$PROJECT_DIR$/recommendation/Basic-DIEN-Demo/utils.py" />
-        <option value="$PROJECT_DIR$/recommendation/Basic-DIEN-Demo/train.py" />
-        <option value="$PROJECT_DIR$/recommendation/Basic-DIEN-Demo/GruCell.py" />
-        <option value="$PROJECT_DIR$/recommendation/Basic-DIEN-Demo/model.py" />
-        <option value="$PROJECT_DIR$/recommendation/Basic-Meta-Graph-Model.py" />
-        <option value="$PROJECT_DIR$/recommendation/Basic-DKN-Demo/news/news_preprocess.py" />
-        <option value="$PROJECT_DIR$/recommendation/Basic-DKN-Demo/kg/prepare_data_for_transx.py" />
-        <option value="$PROJECT_DIR$/recommendation/Basic-DKN-Demo/kg/kg_preprocess.py" />
-        <option value="$PROJECT_DIR$/recommendation/Basic-DKN-Demo/kg/Fast-TransX/transD/transD.cpp" />
-        <option value="$PROJECT_DIR$/recommendation/Basic-DKN-Demo/kg/Fast-TransX/transE/transE.cpp" />
-        <option value="$PROJECT_DIR$/nlp/basic_seq2seq.py" />
-        <option value="$PROJECT_DIR$/recommendation/Basic-DKN-Demo/main.py" />
-        <option value="$PROJECT_DIR$/recommendation/Basic-DKN-Demo/train.py" />
-        <option value="$PROJECT_DIR$/recommendation/Basic-DKN-Demo/README.md" />
-        <option value="$PROJECT_DIR$/recommendation/Basic-DKN-Demo/data_loader.py" />
-        <option value="$PROJECT_DIR$/recommendation/Basic-DKN-Demo/dkn.py" />
-        <option value="$PROJECT_DIR$/recommendation/Basic-RippleNet-Demo/preprocess.py" />
-        <option value="$PROJECT_DIR$/recommendation/Basic-RippleNet-Demo/data/ratings_final.txt" />
-        <option value="$PROJECT_DIR$/recommendation/Basic-RippleNet-Demo/main.py" />
-        <option value="$PROJECT_DIR$/recommendation/Basic-RippleNet-Demo/train.py" />
-        <option value="$PROJECT_DIR$/recommendation/Basic-RippleNet-Demo/data_loader.py" />
-        <option value="$PROJECT_DIR$/recommendation/Basic-RippleNet-Demo/model.py" />
-        <option value="$PROJECT_DIR$/recommendation/Basic-MKR-Demo/preprocess.py" />
-        <option value="$PROJECT_DIR$/recommendation/Basic-MKR-Demo/main.py" />
-        <option value="$PROJECT_DIR$/recommendation/Basic-MKR-Demo/train.py" />
-        <option value="$PROJECT_DIR$/recommendation/Basic-MKR-Demo/data_loader.py" />
-        <option value="$PROJECT_DIR$/nlp/RNN_dynamic_cell.py" />
         <option value="$PROJECT_DIR$/recommendation/Basic-MKR-Demo/layers.py" />
         <option value="$PROJECT_DIR$/recommendation/Basic-MKR-Demo/model.py" />
         <option value="$PROJECT_DIR$/RL/Basic-PPO-Demo/simple-PPO.py" />
         <option value="$PROJECT_DIR$/RL/Basic-AC-Demo.py" />
-        <option value="$PROJECT_DIR$/RL/Basic-A2C-Demo/A2C.py" />
         <option value="$PROJECT_DIR$/RL/Basic-AC-Demo/AC.py" />
         <option value="$PROJECT_DIR$/RL/Basic-A3C-Demo/A3C.py" />
         <option value="$PROJECT_DIR$/RL/compareAC.py" />
+        <option value="$PROJECT_DIR$/RL/Basic-A2C-Demo/A2C.py" />
+        <option value="$PROJECT_DIR$/recommendation/Basic-DeepFM-model/main.py" />
+        <option value="$PROJECT_DIR$/RL/myPtrNetwork/data_util.py" />
+        <option value="$PROJECT_DIR$/RL/myPtrNetwork/config.py" />
+        <option value="$PROJECT_DIR$/RL/myPtrNetwork/model.py" />
+        <option value="$PROJECT_DIR$/recommendation/Basic-MLR-Demo/data.py" />
+        <option value="$PROJECT_DIR$/recommendation/__init__.py" />
+        <option value="$PROJECT_DIR$/recommendation/test.py" />
+        <option value="$PROJECT_DIR$/recommendation/Basic-MLR-Demo/__init__.py" />
+        <option value="$PROJECT_DIR$/recommendation/Basic-MLR-Demo/lr.py" />
+        <option value="$PROJECT_DIR$/recommendation/Basic-MLR-Demo/plotResult.py" />
+        <option value="$PROJECT_DIR$/recommendation/Basic-MLR-Demo/mlr.py" />
+        <option value="$PROJECT_DIR$/recommendation/basic_mlr_demo/data.py" />
+        <option value="$PROJECT_DIR$/recommendation/basic_mlr_demo/mlr.py" />
+        <option value="$PROJECT_DIR$/recommendation/basic_mlr_demo/data/adult.test" />
+        <option value="$PROJECT_DIR$/recommendation/recommendation-FM-demo/FM_model.py" />
+        <option value="$PROJECT_DIR$/recommendation/recommendation-FFM-Demo/FFM_model.py" />
+        <option value="$PROJECT_DIR$/recommendation/Basic-NFM-Demo/config.py" />
+        <option value="$PROJECT_DIR$/recommendation/Basic-NFM-Demo/DataReader.py" />
+        <option value="$PROJECT_DIR$/recommendation/Basic-NFM-Demo/NFM.py" />
+        <option value="$PROJECT_DIR$/recommendation/Basic-NFM-Demo/main.py" />
+        <option value="$PROJECT_DIR$/recommendation/basic_nfm_demo/data_reader.py" />
+        <option value="$PROJECT_DIR$/recommendation/basic_AFM_demo/main.py" />
+        <option value="$PROJECT_DIR$/recommendation/basic_AFM_demo/afm.py" />
+        <option value="$PROJECT_DIR$/recommendation/basic_nfm_demo/main.py" />
+        <option value="$PROJECT_DIR$/recommendation/basic_nfm_demo/nfm.py" />
+        <option value="$PROJECT_DIR$/recommendation/GBDT+LR-Demo/GBDT_LR.py" />
+        <option value="$PROJECT_DIR$/recommendation/Basic-Bandit-Demo/Basic-LinUCB.py" />
+        <option value="$PROJECT_DIR$/recommendation/Basic-DCN-Demo/DCN.py" />
+        <option value="$PROJECT_DIR$/recommendation/Basic-XDeepFM-Demo/train.py" />
+        <option value="$PROJECT_DIR$/recommendation/Basic-DIN-Demo/utils/0_download_raw.sh" />
+        <option value="$PROJECT_DIR$/recommendation/Basic-DIN-Demo/model.py" />
+        <option value="$PROJECT_DIR$/recommendation/basic-DIN-demo/model.py" />
+        <option value="$PROJECT_DIR$/recommendation/basic_DIN_demo/train.py" />
+        <option value="$PROJECT_DIR$/recommendation/basic_DKN_demo/train.py" />
+        <option value="$PROJECT_DIR$/recommendation/basic_DKN_demo/main.py" />
+        <option value="$PROJECT_DIR$/recommendation/Basic-IRGAN-Demo/cf_gan.py" />
+        <option value="$PROJECT_DIR$/recommendation/basic-IRGAN-demo/cf_gan.py" />
+        <option value="$PROJECT_DIR$/recommendation/basic_IRGAN_demo/cf_gan.py" />
+        <option value="$PROJECT_DIR$/recommendation/basic_DIN_demo/utils/1_convert_pd.py" />
+        <option value="$PROJECT_DIR$/recommendation/basic_DIN_demo/utils/2_remap_id.py" />
+        <option value="$PROJECT_DIR$/recommendation/basic_DIN_demo/build_dataset.py" />
+        <option value="$PROJECT_DIR$/recommendation/Basic-NCF-Demo/NCF_input.py" />
+        <option value="$PROJECT_DIR$/recommendation/basic_DIN_demo/model.py" />
       </list>
     </option>
   </component>
@@ -225,95 +359,62 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="width" value="1440" />
-    <option name="height" value="900" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="4" />
+    <option name="y" value="23" />
+    <option name="width" value="1436" />
+    <option name="height" value="877" />
   </component>
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1">
-      <flattenPackages />
-      <showMembers />
-      <showModules />
-      <showLibraryContents />
-      <hideEmptyPackages />
-      <abbreviatePackageNames />
-      <autoscrollToSource />
-      <autoscrollFromSource />
-      <sortByType />
-      <manualOrder />
+    <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="tensorflow1.2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tensorflow1.2" type="462c0819:PsiDirectoryNode" />
+              <item name="tensorflow_practice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tensorflow_practice" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="tensorflow1.2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tensorflow1.2" type="462c0819:PsiDirectoryNode" />
-              <item name="RL" type="462c0819:PsiDirectoryNode" />
+              <item name="tensorflow_practice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tensorflow_practice" type="462c0819:PsiDirectoryNode" />
+              <item name="recommendation" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="tensorflow1.2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tensorflow1.2" type="462c0819:PsiDirectoryNode" />
-              <item name="RL" type="462c0819:PsiDirectoryNode" />
-              <item name="Basic-A2C-Demo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tensorflow1.2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tensorflow1.2" type="462c0819:PsiDirectoryNode" />
-              <item name="RL" type="462c0819:PsiDirectoryNode" />
-              <item name="Basic-A3C-Demo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tensorflow1.2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tensorflow1.2" type="462c0819:PsiDirectoryNode" />
-              <item name="RL" type="462c0819:PsiDirectoryNode" />
-              <item name="Basic-AC-Demo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tensorflow1.2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tensorflow1.2" type="462c0819:PsiDirectoryNode" />
-              <item name="RL" type="462c0819:PsiDirectoryNode" />
-              <item name="Basic-Policy-Network" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tensorflow1.2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tensorflow1.2" type="462c0819:PsiDirectoryNode" />
-              <item name="RL" type="462c0819:PsiDirectoryNode" />
-              <item name="DQN-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="tensorflow_practice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tensorflow_practice" type="462c0819:PsiDirectoryNode" />
+              <item name="recommendation" type="462c0819:PsiDirectoryNode" />
+              <item name="GBDT+LR-Demo" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
     <property name="two.files.diff.last.used.file" value="$PROJECT_DIR$/recommendation/Basic-DIEN-Demo/vecAttGruCell.py" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/recommendation/Basic-DIEN-Demo/data" />
-      <recent name="$PROJECT_DIR$/CV" />
-      <recent name="$PROJECT_DIR$/recommendation/Basic-XDeepFM-Demo/test_some_code" />
-      <recent name="$PROJECT_DIR$/recommendation/Basic-XDeepFM-Demo" />
-      <recent name="$PROJECT_DIR$/recommendation/Basic-XDeepFM-Demo/res" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/recommendation/Basic-MKR-Demo/data" />
       <recent name="$PROJECT_DIR$/recommendation/Basic-RippleNet-Demo/data" />
       <recent name="$PROJECT_DIR$/recommendation/Basic-DKN-Demo" />
       <recent name="$PROJECT_DIR$/recommendation/Basic-DKN-Demo/kg" />
       <recent name="$PROJECT_DIR$/recommendation/Basic-DKN-Demo/news" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/recommendation/Basic-DIEN-Demo/data" />
+      <recent name="$PROJECT_DIR$/CV" />
+      <recent name="$PROJECT_DIR$/recommendation/Basic-XDeepFM-Demo/test_some_code" />
+      <recent name="$PROJECT_DIR$/recommendation/Basic-XDeepFM-Demo" />
+      <recent name="$PROJECT_DIR$/recommendation/Basic-XDeepFM-Demo/res" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -328,116 +429,135 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.compareAC">
-    <configuration name="A2C" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.train">
+    <configuration name="Baisc-UCB" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="tensorflow1.2" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/RL/Basic-A2C-Demo" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/recommendation/Basic-Bandit-Demo" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="tensorflow1.2" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/RL/Basic-A2C-Demo/A2C.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/recommendation/Basic-Bandit-Demo/Baisc-UCB.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="A3C" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="__init__" type="PythonConfigurationType" factoryName="Python">
+      <module name="tensorflow1.2" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/RL/Basic-A3C-Demo" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/recommendation" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="tensorflow1.2" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/RL/Basic-A3C-Demo/A3C.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/recommendation/__init__.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="AC" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="cf_gan" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="tensorflow1.2" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/RL/Basic-AC-Demo" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/recommendation/basic_IRGAN_demo" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="tensorflow1.2" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/RL/Basic-AC-Demo/AC.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/recommendation/basic_IRGAN_demo/cf_gan.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="compareAC" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="main (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="tensorflow1.2" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/RL" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/recommendation/basic_nfm_demo" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="tensorflow1.2" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/RL/compareAC.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/recommendation/basic_nfm_demo/main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="run_CartPole" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="main (2)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="tensorflow1.2" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/RL/Basic-Actor-Critic" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/recommendation/basic_DKN_demo" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="tensorflow1.2" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/RL/Basic-Actor-Critic/run_CartPole.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/recommendation/basic_DKN_demo/main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
     </configuration>
-    <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.run_CartPole" />
-      <item index="1" class="java.lang.String" itemvalue="Python.A2C" />
-      <item index="2" class="java.lang.String" itemvalue="Python.A3C" />
-      <item index="3" class="java.lang.String" itemvalue="Python.AC" />
-      <item index="4" class="java.lang.String" itemvalue="Python.compareAC" />
+    <configuration name="train" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="tensorflow1.2" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/recommendation/basic_DIN_demo" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/recommendation/basic_DIN_demo/train.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.__init__" />
+      <item itemvalue="Python.main (1)" />
+      <item itemvalue="Python.Baisc-UCB" />
+      <item itemvalue="Python.train" />
+      <item itemvalue="Python.main (2)" />
+      <item itemvalue="Python.cf_gan" />
     </list>
     <recent_temporary>
-      <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.compareAC" />
-        <item index="1" class="java.lang.String" itemvalue="Python.A3C" />
-        <item index="2" class="java.lang.String" itemvalue="Python.A2C" />
-        <item index="3" class="java.lang.String" itemvalue="Python.AC" />
-        <item index="4" class="java.lang.String" itemvalue="Python.run_CartPole" />
+      <list>
+        <item itemvalue="Python.train" />
+        <item itemvalue="Python.cf_gan" />
+        <item itemvalue="Python.main (2)" />
+        <item itemvalue="Python.Baisc-UCB" />
+        <item itemvalue="Python.main (1)" />
       </list>
     </recent_temporary>
   </component>
-  <component name="ShelveChangesManager" show_recycled="false">
-    <option name="remove_strategy" value="false" />
+  <component name="SvnConfiguration">
+    <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -459,30 +579,51 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="true" />
+    <frame x="4" y="23" width="1436" height="877" extended-state="0" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28540772" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3095526" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32889965" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32889965" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23458283" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39782345" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.28975266" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.6628205" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32889965" />
+      <window_info anchor="bottom" id="Python Console" order="9" weight="0.32820514" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.66923076" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3974359" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.24964131" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" id="Data View" order="3" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="bottom" id="Messages" order="10" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
+    <layout-to-restore>
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.24964131" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.28975266" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.6628205" />
+      <window_info anchor="right" id="Data View" order="3" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32889965" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3974359" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.66923076" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Messages" order="10" />
+      <window_info anchor="bottom" id="Python Console" order="9" weight="0.32820514" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -503,6 +644,46 @@
           <line>22</line>
           <option name="timeStamp" value="5" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/recommendation/recommendation-FM-demo/FM_model.py</url>
+          <line>12</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/recommendation/recommendation-FM-demo/FM_model.py</url>
+          <line>32</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/recommendation/recommendation-FM-demo/FM_model.py</url>
+          <line>65</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/recommendation/recommendation-FM-demo/FM_model.py</url>
+          <line>25</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/recommendation/recommendation-FFM-Demo/FFM_model.py</url>
+          <line>97</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/recommendation/basic_nfm_demo/main.py</url>
+          <line>113</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/recommendation/basic_AFM_demo/main.py</url>
+          <line>54</line>
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/recommendation/basic_nfm_demo/nfm.py</url>
+          <line>252</line>
+          <option name="timeStamp" value="38" />
+        </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
         <breakpoint type="python-exception">
@@ -511,402 +692,470 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="9" />
+      <option name="time" value="40" />
     </breakpoint-manager>
-    <watches-manager />
+    <watches-manager>
+      <configuration name="PythonConfigurationType">
+        <watch expression="len(labels_)" language="Python" />
+        <watch expression="tf.ones_like(self.label)" language="Python" />
+        <watch expression="self.y_second_order" language="Python" />
+        <watch expression="self.feat_index" language="Python" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="watch">
+      <expression>
+        <expression-string>len(labels_)</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>len(labels)</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>len(probs_)</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>len(y_train) / self.batch_size</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>prob_.ravel().tolist()</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>probs_</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>prob_.shape</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>prob_</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>loss</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>acc_</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/recommendation/Basic-DKN-Demo/kg/Fast-TransX/transE/transE.cpp">
+    <entry file="file://$PROJECT_DIR$/recommendation/basic_IRGAN_demo/cf_gan.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4935">
-          <caret line="329" column="5" lean-forward="false" selection-start-line="329" selection-start-column="5" selection-end-line="329" selection-end-column="5" />
+        <state relative-caret-position="798">
+          <caret line="42" column="19" selection-start-line="42" selection-start-column="19" selection-end-line="42" selection-end-column="19" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/recommendation/Basic-DKN-Demo/kg/entity_embeddings_TransE_50.npy" />
-    <entry file="file://$PROJECT_DIR$/recommendation/Basic-DKN-Demo/kg/kg_preprocess.py">
+    <entry file="file://$PROJECT_DIR$/recommendation/basic_DIN_demo/train.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-138">
-          <caret line="24" column="23" lean-forward="true" selection-start-line="24" selection-start-column="23" selection-end-line="24" selection-end-column="23" />
+        <state relative-caret-position="741">
+          <caret line="98" column="22" selection-start-line="98" selection-start-column="22" selection-end-line="98" selection-end-column="22" />
+          <folding>
+            <element signature="e#377#520#0" />
+            <element signature="e#712#1167#0" />
+            <element signature="e#844#955#0" />
+            <element signature="e#1195#1417#0" />
+            <element signature="e#1448#1881#0" />
+            <element signature="e#1549#1661#0" />
+            <element signature="e#1792#1855#0" />
+            <element signature="e#2337#3261#0" />
+            <element signature="e#2468#3052#0" />
+            <element signature="e#2582#2963#0" />
+            <element signature="e#2773#2887#0" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/recommendation/Basic-DKN-Demo/kg/prepare_data_for_transx.py">
+    <entry file="file://$PROJECT_DIR$/recommendation/basic_DIEN_demo/vecAttGruCell.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="215">
-          <caret line="53" column="44" lean-forward="true" selection-start-line="53" selection-start-column="44" selection-end-line="53" selection-end-column="44" />
+        <state>
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/recommendation/Basic-DKN-Demo/news/raw_train.txt">
+    <entry file="file://$PROJECT_DIR$/recommendation/basic_DIN_demo/input.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="57">
+          <caret line="3" column="38" selection-start-line="3" selection-start-column="38" selection-end-line="3" selection-end-column="38" />
+          <folding>
+            <element signature="e#633#716#0" />
+            <element signature="e#824#894#0" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/recommendation/Basic-DKN-Demo/news/test.txt" />
-    <entry file="file://$PROJECT_DIR$/recommendation/Basic-DKN-Demo/news/train.txt" />
-    <entry file="file://$PROJECT_DIR$/recommendation/Basic-DKN-Demo/news/raw_test.txt">
+    <entry file="file://$PROJECT_DIR$/recommendation/Basic-NCF-Demo/tf_data_demo.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state>
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/recommendation/Basic-DKN-Demo/news/news_preprocess.py">
+    <entry file="file://$PROJECT_DIR$/recommendation/Basic-NCF-Demo/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-745">
-          <caret line="100" column="4" lean-forward="false" selection-start-line="100" selection-start-column="4" selection-end-line="100" selection-end-column="4" />
+        <state>
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Anaconda/anaconda/lib/python3.6/site-packages/tensorflow/python/framework/ops.py">
+    <entry file="file://$PROJECT_DIR$/recommendation/Basic-NCF-Demo/NCF_input.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="773" column="0" lean-forward="false" selection-start-line="773" selection-start-column="0" selection-end-line="773" selection-end-column="0" />
-          <folding />
+        <state>
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/recommendation/Basic-DKN-Demo/README.md">
+    <entry file="file://$PROJECT_DIR$/recommendation/basic_DIN_demo/train.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="419">
-          <caret line="65" column="0" lean-forward="true" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
+        <state relative-caret-position="741">
+          <caret line="98" column="22" selection-start-line="98" selection-start-column="22" selection-end-line="98" selection-end-column="22" />
+          <folding>
+            <element signature="e#377#520#0" />
+            <element signature="e#712#1167#0" />
+            <element signature="e#844#955#0" />
+            <element signature="e#1195#1417#0" />
+            <element signature="e#1448#1881#0" />
+            <element signature="e#1549#1661#0" />
+            <element signature="e#1792#1855#0" />
+            <element signature="e#2337#3261#0" />
+            <element signature="e#2468#3052#0" />
+            <element signature="e#2582#2963#0" />
+            <element signature="e#2773#2887#0" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/recommendation/Basic-DKN-Demo/data_loader.py">
+    <entry file="file://$PROJECT_DIR$/recommendation/basic_DIN_demo/build_dataset.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="268">
-          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+        <state relative-caret-position="209">
+          <caret line="12" column="57" selection-start-line="12" selection-start-column="57" selection-end-line="12" selection-end-column="57" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/recommendation/Basic-DKN-Demo/train.py">
+    <entry file="file://$PROJECT_DIR$/recommendation/basic_IRGAN_demo/cf_gan.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="16" column="30" lean-forward="true" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
+        <state relative-caret-position="361">
+          <caret line="19" column="19" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/recommendation/Basic-DKN-Demo/main.py">
+    <entry file="file://$PROJECT_DIR$/recommendation/basic_DIN_demo/train.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="79" lean-forward="false" selection-start-line="19" selection-start-column="79" selection-end-line="19" selection-end-column="79" />
+        <state relative-caret-position="2204">
+          <caret line="116" column="34" selection-start-line="116" selection-start-column="34" selection-end-line="116" selection-end-column="34" />
+          <folding>
+            <element signature="e#377#520#0" />
+            <element signature="e#712#1167#0" />
+            <element signature="e#844#955#0" />
+            <element signature="e#1195#1417#0" />
+            <element signature="e#1448#1881#0" />
+            <element signature="e#1549#1661#0" />
+            <element signature="e#1792#1855#0" />
+            <element signature="e#2337#3261#0" />
+            <element signature="e#2468#3052#0" />
+            <element signature="e#2582#2963#0" />
+            <element signature="e#2773#2887#0" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/recommendation/Basic-DKN-Demo/dkn.py">
+    <entry file="file://$PROJECT_DIR$/recommendation/basic_DIEN_demo/utils.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-529">
-          <caret line="48" column="8" lean-forward="false" selection-start-line="48" selection-start-column="8" selection-end-line="49" selection-end-column="58" />
+        <state relative-caret-position="-1" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/recommendation/basic_DIN_demo/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/recommendation/Basic-RippleNet-Demo/data/kg_rehashed.txt">
+    <entry file="file://$PROJECT_DIR$/recommendation/Basic-DKN-Demo/data_loader.py" />
+    <entry file="file://$PROJECT_DIR$/recommendation/Basic-DKN-Demo/dkn.py" />
+    <entry file="file://$PROJECT_DIR$/recommendation/Basic-DKN-Demo/main.py" />
+    <entry file="file://$PROJECT_DIR$/recommendation/Basic-DKN-Demo/README.md" />
+    <entry file="file://$PROJECT_DIR$/recommendation/basic_DKN_demo/kg/Fast-TransX/transR/transR.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="-8173" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/recommendation/basic_DKN_demo/kg/Fast-TransX/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="323">
+            <caret line="17" column="20" lean-forward="true" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/recommendation/Basic-RippleNet-Demo/data/item_index2entity_id_rehashed.txt">
+    <entry file="file://$PROJECT_DIR$/recommendation/Basic-MKR-Demo/layers.py" />
+    <entry file="file://$PROJECT_DIR$/recommendation/Basic-MKR-Demo/main.py" />
+    <entry file="file://$PROJECT_DIR$/recommendation/Basic-MKR-Demo/model.py" />
+    <entry file="file://$PROJECT_DIR$/recommendation/Basic-MKR-Demo/train.py" />
+    <entry file="file://$PROJECT_DIR$/recommendation/basic_DKN_demo/news/news_preprocess.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="38">
+          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/recommendation/Basic-RippleNet-Demo/data/BX-Book-Ratings.csv">
+    <entry file="file://$PROJECT_DIR$/recommendation/basic_DKN_demo/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="304">
+            <caret line="16" column="22" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/recommendation/basic_DKN_demo/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="619">
+          <caret line="35" selection-start-line="35" selection-end-line="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/recommendation/Basic-BPR-Demo/BPR.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2345">
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/recommendation/Basic-FTRL-Demo/basic-ftrl.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-844">
+          <folding>
+            <element signature="e#0#29#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/basic/basic.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2212" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/recommendation/basic_IRGAN_demo/ml-100k/dis-train.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-838000" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/recommendation/basic_IRGAN_demo/utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="407">
+          <caret line="22" column="32" selection-start-line="22" selection-start-column="32" selection-end-line="22" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/recommendation/basic_IRGAN_demo/gen_model.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-407" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/recommendation/basic_IRGAN_demo/dis_model.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-540" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/recommendation/basic_DKN_demo/train.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="42" selection-start-line="8" selection-start-column="42" selection-end-line="8" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/recommendation/basic_DIN_demo/data/reviews_Electronics_5.json">
       <provider selected="true" editor-type-id="LargeFileEditor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="-1071" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/recommendation/basic_DIN_demo/utils/0_download_raw.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="95" selection-start-line="5" selection-start-column="95" selection-end-line="5" selection-end-column="95" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Library/Caches/PyCharmCE2018.1/python_stubs/494284307/builtins.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="132" column="4" selection-start-line="132" selection-start-column="4" selection-end-line="132" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///anaconda3/envs/tensorflow_practice/lib/python3.6/site-packages/pandas/core/frame.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="905" column="34" selection-start-line="905" selection-start-column="34" selection-end-line="905" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/recommendation/basic_DIN_demo/utils/1_convert_pd.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="53" selection-start-line="11" selection-start-column="53" selection-end-line="11" selection-end-column="53" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/recommendation/basic_DIN_demo/convert_pd.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="12" selection-start-column="12" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/recommendation/basic_DIN_demo/utils/2_remap_id.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" column="4" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/recommendation/recommendation-FM-demo/FM_model.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="7" lean-forward="true" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/recommendation/Basic-RippleNet-Demo/train.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="840">
-          <caret line="58" column="0" lean-forward="false" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
+        <state relative-caret-position="-78">
           <folding>
-            <element signature="e#0#23#0" expanded="false" />
+            <element signature="e#0#27#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/recommendation/Basic-RippleNet-Demo/data/ratings_final.txt">
+    <entry file="file://$PROJECT_DIR$/recommendation/basic_DIN_demo/build_dataset.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="13" lean-forward="false" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
-          <folding />
+        <state relative-caret-position="209">
+          <caret line="12" column="57" selection-start-line="12" selection-start-column="57" selection-end-line="12" selection-end-column="57" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/recommendation/Basic-RippleNet-Demo/data/kg_final.txt">
+    <entry file="file://$PROJECT_DIR$/recommendation/basic_DIN_demo/train.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/recommendation/Basic-RippleNet-Demo/data_loader.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+        <state relative-caret-position="741">
+          <caret line="98" column="22" selection-start-line="98" selection-start-column="22" selection-end-line="98" selection-end-column="22" />
           <folding>
-            <element signature="e#0#18#0" expanded="false" />
+            <element signature="e#377#520#0" />
+            <element signature="e#712#1167#0" />
+            <element signature="e#844#955#0" />
+            <element signature="e#1195#1417#0" />
+            <element signature="e#1448#1881#0" />
+            <element signature="e#1549#1661#0" />
+            <element signature="e#1792#1855#0" />
+            <element signature="e#2337#3261#0" />
+            <element signature="e#2468#3052#0" />
+            <element signature="e#2582#2963#0" />
+            <element signature="e#2773#2887#0" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/recommendation/Basic-RippleNet-Demo/main.py">
+    <entry file="file://$PROJECT_DIR$/recommendation/basic_DIN_demo/input.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="28" column="87" lean-forward="false" selection-start-line="28" selection-start-column="87" selection-end-line="28" selection-end-column="87" />
+        <state relative-caret-position="57">
+          <caret line="3" column="38" selection-start-line="3" selection-start-column="38" selection-end-line="3" selection-end-column="38" />
           <folding>
-            <element signature="e#0#15#0" expanded="false" />
+            <element signature="e#633#716#0" />
+            <element signature="e#824#894#0" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/recommendation/Basic-MKR-Demo/data/BX-Book-Ratings.csv">
-      <provider selected="true" editor-type-id="LargeFileEditor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/recommendation/Basic-RippleNet-Demo/model.py">
+    <entry file="file://$PROJECT_DIR$/recommendation/Basic-NCF-Demo/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="331">
-          <caret line="131" column="24" lean-forward="true" selection-start-line="131" selection-start-column="24" selection-end-line="131" selection-end-column="24" />
-          <folding>
-            <element signature="e#0#23#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/recommendation/Basic-RippleNet-Demo/preprocess.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-345">
-          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/recommendation/Basic-MKR-Demo/data/ratings_final.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/recommendation/Basic-MKR-Demo/data/kg_final.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nlp/RNN_dynamic_cell.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="134">
-          <caret line="70" column="53" lean-forward="true" selection-start-line="70" selection-start-column="53" selection-end-line="70" selection-end-column="53" />
-          <folding>
-            <element signature="e#0#18#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nlp/basic_seq2seq.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-884">
-          <caret line="328" column="0" lean-forward="true" selection-start-line="328" selection-start-column="0" selection-end-line="328" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/recommendation/Basic-MKR-Demo/preprocess.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-119">
-          <caret line="74" column="17" lean-forward="false" selection-start-line="74" selection-start-column="17" selection-end-line="74" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/recommendation/Basic-MKR-Demo/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="76" lean-forward="true" selection-start-line="18" selection-start-column="76" selection-end-line="18" selection-end-column="76" />
-          <folding>
-            <element signature="e#0#15#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/recommendation/Basic-MKR-Demo/data_loader.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="37" lean-forward="false" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/recommendation/Basic-MKR-Demo/train.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1142">
-          <caret line="124" column="0" lean-forward="false" selection-start-line="124" selection-start-column="0" selection-end-line="124" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/recommendation/Basic-MKR-Demo/layers.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="89" column="32" lean-forward="false" selection-start-line="70" selection-start-column="8" selection-end-line="89" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/recommendation/Basic-MKR-Demo/model.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="251">
-          <caret line="96" column="0" lean-forward="false" selection-start-line="96" selection-start-column="0" selection-end-line="96" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#18#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/RL/Basic-PPO-Demo/simple-PPO.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-144">
-          <caret line="49" column="59" lean-forward="false" selection-start-line="49" selection-start-column="59" selection-end-line="49" selection-end-column="59" />
-          <folding>
-            <element signature="e#0#23#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/RL/Basic-A2C-Demo/run_CartPole.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="8">
-          <caret line="10" column="18" lean-forward="true" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/RL/Basic-A2C-Demo/Actor.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-284">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/RL/Basic-A2C-Demo/Critic.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-12">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/RL/Basic-AC-Demo.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Anaconda/anaconda/lib/python3.6/site-packages/tensorflow/python/client/session.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="181">
-          <caret line="1095" column="0" lean-forward="false" selection-start-line="1095" selection-start-column="0" selection-end-line="1095" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/RL/Basic-Policy-Network/RL_brain.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/RL/Basic-Policy-Network/run_CartPole.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="16" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/RL/Basic-A2C-Demo/A2C.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="404">
-          <caret line="155" column="0" lean-forward="false" selection-start-line="155" selection-start-column="0" selection-end-line="155" selection-end-column="78" />
+        <state>
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/RL/Basic-AC-Demo/AC.py">
+    <entry file="file://$PROJECT_DIR$/recommendation/Basic-NCF-Demo/NCF_input.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1936">
-          <caret line="8" column="46" lean-forward="false" selection-start-line="8" selection-start-column="46" selection-end-line="8" selection-end-column="46" />
+        <state>
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/RL/ac_reward.csv">
+    <entry file="file://$PROJECT_DIR$/recommendation/basic_IRGAN_demo/cf_gan.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-6721">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/RL/a2c_reward.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/RL/Basic-A3C-Demo/A3C.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="265">
-          <caret line="179" column="23" lean-forward="false" selection-start-line="179" selection-start-column="23" selection-end-line="179" selection-end-column="23" />
+        <state relative-caret-position="798">
+          <caret line="42" column="19" selection-start-line="42" selection-start-column="19" selection-end-line="42" selection-end-column="19" />
           <folding>
-            <element signature="e#0#22#0" expanded="true" />
+            <element signature="e#0#13#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/RL/compareAC.py">
+    <entry file="file://$PROJECT_DIR$/recommendation/basic_DIN_demo/model.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+        <state relative-caret-position="2394">
+          <caret line="126" column="60" selection-start-line="126" selection-start-column="60" selection-end-line="126" selection-end-column="60" />
           <folding>
-            <element signature="e#0#19#0" expanded="true" />
+            <element signature="e#0#23#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/recommendation/basic_DIEN_demo/vecAttGruCell.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/recommendation/Basic-NCF-Demo/tf_data_demo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -8,6 +8,7 @@ from tensorflow.python.framework import dtypes
 LSTMCell = rnn.LSTMCell
 MultiRNNCell = rnn.MultiRNNCell
 
+
 def trainable_initial_state(batch_size, state_size,
                             initializer=None, name="initial_state"):
     flat_state_size = nest.flatten(state_size)
@@ -43,8 +44,6 @@ def index_matrix_to_pairs(index_matrix):
             tf.expand_dims(replicated_first_indices, dim=1),
             [1, tf.shape(index_matrix)[1]])
     return tf.stack([replicated_first_indices, index_matrix], axis=rank)
-
-
 
 
 class Model(object):
@@ -84,18 +83,21 @@ class Model(object):
             shape=(), name='is_training'
         )
 
-
         self._build_model()
-
-
 
     def _build_model(self):
 
         # -----------------定义输入------------------
-        self.enc_seq = tf.placeholder(dtype=tf.float32,shape=[self.batch_size,self.max_enc_length,2],name='enc_seq')
-        self.target_seq = tf.placeholder(dtype=tf.int32,shape=[self.batch_size,self.max_dec_length],name='target_seq')
-        self.enc_seq_length = tf.placeholder(dtype=tf.int32,shape=[self.batch_size],name='enc_seq_length')
-        self.target_seq_length = tf.placeholder(dtype=tf.int32,shape=[self.batch_size],name='target_seq_length')
+        self.enc_seq = tf.placeholder(dtype=tf.float32,
+                                      shape=[self.batch_size, self.max_enc_length, 2],
+                                      name='enc_seq')
+        self.target_seq = tf.placeholder(dtype=tf.int32,
+                                         shape=[self.batch_size, self.max_dec_length],
+                                         name='target_seq')
+        self.enc_seq_length = tf.placeholder(dtype=tf.int32, shape=[self.batch_size],
+                                             name='enc_seq_length')
+        self.target_seq_length = tf.placeholder(dtype=tf.int32, shape=[self.batch_size],
+                                                name='target_seq_length')
 
         # ----------------输入处理-------------------
         # 将输入转换成embed
@@ -154,7 +156,7 @@ class Model(object):
             tiled_zero_idxs = tf.tile(tf.zeros(
                 [1, 1], dtype=tf.int32), [self.batch_size, 1], name="tiled_zero_idxs")
             self.add_terminal_target_seq = tf.concat([self.target_seq, tiled_zero_idxs], axis=1)
-            #如果使用了结束标记的话，要给encoder的输出拼上开始状态，同时给decoder的输入拼上开始状态
+            # 如果使用了结束标记的话，要给encoder的输出拼上开始状态，同时给decoder的输入拼上开始状态
             self.embeded_dec_inputs = tf.concat(
                 [self.first_decoder_input, self.embeded_dec_inputs], axis=1)
 
@@ -175,9 +177,8 @@ class Model(object):
             # 预测的softmax序列，用于计算损失
             self.predict_indexes_distribution = []
 
-
             # 训练self.max_dec_length  + 1轮，每一轮输入batch * hiddennum
-            for j in range(self.max_dec_length  + 1):
+            for j in range(self.max_dec_length + 1):
                 if j > 0:
                     tf.get_variable_scope().reuse_variables()
                 cell_input = tf.squeeze(self.embeded_dec_inputs[:, j, :])  # B * L
@@ -192,7 +193,8 @@ class Model(object):
                 self.predict_indexes.append(idx)
 
             self.predict_indexes = tf.convert_to_tensor(self.predict_indexes)
-            self.predict_indexes_distribution = tf.convert_to_tensor(self.predict_indexes_distribution)
+            self.predict_indexes_distribution = tf.convert_to_tensor(
+                self.predict_indexes_distribution)
 
         # ----------------------decoder 预测----------------------
         # 预测输出的id序列
@@ -225,9 +227,10 @@ class Model(object):
                 self.infer_predict_indexes.append(idx)
                 # decoder的每个输出的softmax序列
                 self.infer_predict_indexes_distribution.append(idx_softmax)
-            self.infer_predict_indexes = tf.convert_to_tensor(self.infer_predict_indexes,dtype=tf.int32)
-            self.infer_predict_indexes_distribution = tf.convert_to_tensor(self.infer_predict_indexes_distribution,dtype=tf.float32)
-
+            self.infer_predict_indexes = tf.convert_to_tensor(self.infer_predict_indexes,
+                                                              dtype=tf.int32)
+            self.infer_predict_indexes_distribution = tf.convert_to_tensor(
+                self.infer_predict_indexes_distribution, dtype=tf.float32)
 
         # ----------------loss------------------
         with tf.variable_scope("loss"):
@@ -249,9 +252,11 @@ class Model(object):
             # self.inference_loss = -tf.reduce_mean(self.dec_target_labels * tf.log(self.dec_inference_logits))
             #
 
-            training_logits = tf.identity(tf.transpose(self.predict_indexes_distribution[:-1],[1,0,2]))
+            training_logits = tf.identity(
+                tf.transpose(self.predict_indexes_distribution[:-1], [1, 0, 2]))
             targets = tf.identity(self.target_seq)
-            masks = tf.sequence_mask(self.target_seq_length,self.max_dec_length,dtype=tf.float32,name="masks")
+            masks = tf.sequence_mask(self.target_seq_length, self.max_dec_length, dtype=tf.float32,
+                                     name="masks")
             self.loss = tf.contrib.seq2seq.sequence_loss(
                 training_logits,
                 targets,
@@ -261,7 +266,7 @@ class Model(object):
             self.train_op = self.optimizer.minimize(self.loss)
 
     def train(self, sess, batch):
-        #对于训练阶段，需要执行self.train_op, self.loss, self.summary_op三个op，并传入相应的数据
+        # 对于训练阶段，需要执行self.train_op, self.loss, self.summary_op三个op，并传入相应的数据
         feed_dict = {self.enc_seq: batch['enc_seq'],
                      self.enc_seq_length: batch['enc_seq_length'],
                      self.target_seq: batch['target_seq'],
@@ -272,10 +277,10 @@ class Model(object):
     def eval(self, sess, batch):
         # 对于eval阶段，不需要反向传播，所以只执行self.loss, self.summary_op两个op，并传入相应的数据
         feed_dict = {self.enc_seq: batch['enc_seq'],
-                      self.enc_seq_length: batch['enc_seq_length'],
-                      self.target_seq: batch['target_seq'],
-                      self.target_seq_length: batch['target_seq_length']}
-        loss= sess.run([self.loss], feed_dict=feed_dict)
+                     self.enc_seq_length: batch['enc_seq_length'],
+                     self.target_seq: batch['target_seq'],
+                     self.target_seq_length: batch['target_seq_length']}
+        loss = sess.run([self.loss], feed_dict=feed_dict)
         return loss
 
     def infer(self, sess, batch):
@@ -287,8 +292,7 @@ class Model(object):
         predict = sess.run([self.infer_predict_indexes], feed_dict=feed_dict)
         return predict
 
-
-    def attention(self,ref, query, with_softmax, scope="attention"):
+    def attention(self, ref, query, with_softmax, scope="attention"):
         """
 
         :param ref: encoder的输出
@@ -298,30 +302,33 @@ class Model(object):
         :return:
         """
         with tf.variable_scope(scope):
-            W_1 = tf.get_variable("W_e", [self.hidden_dim, self.attention_dim], initializer=self.initializer)  # L x A
-            W_2 = tf.get_variable("W_d", [self.hidden_dim, self.attention_dim], initializer=self.initializer) # L * A
+            W_1 = tf.get_variable("W_e", [self.hidden_dim, self.attention_dim],
+                                  initializer=self.initializer)  # L x A
+            W_2 = tf.get_variable("W_d", [self.hidden_dim, self.attention_dim],
+                                  initializer=self.initializer)  # L * A
 
             dec_portion = tf.matmul(query, W_2)
 
-            scores = [] # S * B
-            v_blend = tf.get_variable("v_blend", [self.attention_dim, 1], initializer=self.initializer)  # A x 1
+            scores = []  # S * B
+            v_blend = tf.get_variable("v_blend", [self.attention_dim, 1],
+                                      initializer=self.initializer)  # A x 1
             bais_blend = tf.get_variable("bais_v_blend", [1], initializer=self.initializer)  # 1 x 1
             for i in range(self.max_enc_length + 1):
-                refi = tf.matmul(tf.squeeze(ref[:,i,:]),W_1)
-                ui = tf.add(tf.matmul(tf.nn.tanh(dec_portion+refi),v_blend),bais_blend) # B * 1
+                refi = tf.matmul(tf.squeeze(ref[:, i, :]), W_1)
+                ui = tf.add(tf.matmul(tf.nn.tanh(dec_portion + refi), v_blend), bais_blend)  # B * 1
                 scores.append(tf.squeeze(ui))
-            scores = tf.transpose(scores,[1,0]) # B * S
+            scores = tf.transpose(scores, [1, 0])  # B * S
             if with_softmax:
-                return tf.nn.softmax(scores,dim=1)
+                return tf.nn.softmax(scores, dim=1)
             else:
                 return scores
 
-    def glimpse_fn(self,ref, query, scope="glimpse"):
+    def glimpse_fn(self, ref, query, scope="glimpse"):
         p = self.attention(ref, query, with_softmax=True, scope=scope)
         alignments = tf.expand_dims(p, 2)
         return tf.reduce_sum(alignments * ref, [1])
 
-    def choose_index(self,ref,query):
+    def choose_index(self, ref, query):
         if self.num_glimpse > 0:
-            query = self.glimpse_fn(ref,query)
+            query = self.glimpse_fn(ref, query)
         return self.attention(ref, query, with_softmax=True, scope="attention")

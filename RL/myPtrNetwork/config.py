@@ -24,10 +24,13 @@ net_arg.add_argument('--input_dim', type=int, default=2, help='')
 net_arg.add_argument('--max_enc_length', type=int, default=None, help='')
 net_arg.add_argument('--attention_dim', type=int, default=20)
 net_arg.add_argument('--max_dec_length', type=int, default=None, help='')
-net_arg.add_argument('--init_min_val', type=float, default=-0.08, help='for uniform random initializer')
-net_arg.add_argument('--init_max_val', type=float, default=+0.08, help='for uniform random initializer')
+net_arg.add_argument('--init_min_val', type=float, default=-0.08,
+                     help='for uniform random initializer')
+net_arg.add_argument('--init_max_val', type=float, default=+0.08,
+                     help='for uniform random initializer')
 net_arg.add_argument('--num_glimpse', type=int, default=1, help='')
-net_arg.add_argument('--use_terminal_symbol', type=str2bool, default=True, help='Not implemented yet')
+net_arg.add_argument('--use_terminal_symbol', type=str2bool, default=True,
+                     help='Not implemented yet')
 
 # Data
 data_arg = add_argument_group('Data')
@@ -55,7 +58,8 @@ train_arg.add_argument('--checkpoint_secs', type=int, default=300, help='')
 misc_arg = add_argument_group('Misc')
 misc_arg.add_argument('--log_step', type=int, default=50, help='')
 misc_arg.add_argument('--num_log_samples', type=int, default=3, help='')
-misc_arg.add_argument('--log_level', type=str, default='INFO', choices=['INFO', 'DEBUG', 'WARN'], help='')
+misc_arg.add_argument('--log_level', type=str, default='INFO', choices=['INFO', 'DEBUG', 'WARN'],
+                      help='')
 misc_arg.add_argument('--log_dir', type=str, default='logs')
 misc_arg.add_argument('--data_dir', type=str, default='data')
 misc_arg.add_argument('--output_dir', type=str, default='outputs')
