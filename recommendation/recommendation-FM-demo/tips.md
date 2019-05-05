@@ -1,0 +1,16 @@
+- vectorize_dic 是用来把用户、物品打分对转换成对应的矩阵
+  - 采用`csr_matrix((data, (row_ind, col_ind)), [shape=(M, N)])`方法
+  - TODO:可以重写一个简洁的
+- 或者使用indice
+  - `csr_matrix((data, indices, indptr), [shape=(M, N)])`
+- 变量含义
+  - 其中ix是不同的用户和物品的计数？
+  - 矩阵维度是（所有数据 x 所有不重复数据）
+  - col_ix是count值？
+- 用的是出现值
+  - 行是所有的列表
+  - 列是独立的用户或物品
+    - 用count作为列的index
+    - **csr_matrix同行同列有不同数据，采用相加的方式处理**
+- V向量
+  - 维度为10，用变量k表示
